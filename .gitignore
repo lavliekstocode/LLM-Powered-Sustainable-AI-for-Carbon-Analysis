@@ -1,0 +1,37 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Streamlit and local tooling
+.streamlit/secrets.toml
+.cache/
+.local/
+.pythonlibs/
+.upm/
+
+# Node
+node_modules/
+npm-debug.log*
+dist/
+
+# Generated application output
+reports/*
+!reports/.gitkeep
+
+# Uploaded or generated local assets
+attached_assets/*
+!attached_assets/.gitkeep

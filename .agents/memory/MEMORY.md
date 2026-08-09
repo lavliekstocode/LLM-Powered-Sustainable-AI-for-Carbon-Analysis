@@ -1,0 +1,1 @@
+- [Mockup build environment](mockup-build-environment.md) — Vite validation requires explicit PORT and BASE_PATH variables.
